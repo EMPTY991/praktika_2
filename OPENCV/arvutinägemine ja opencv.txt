@@ -1,0 +1,21 @@
+Arvutinägemine on tehisintellekti haru, mis võimaldab arvutitel digitaalseid pilte ning videoid algoritmide abil näha ja mõista. 
+Kuna arvuti ei taju maailma visuaalselt nagu inimene, taandab ta iga pildi suureks hulgaks numbrilisteks väärtusteks ehk piksliteks. 
+Mustvalge pildi puhul tähistab iga piksel heledust (näiteks 0 on must ja 255 valge), värvilise pildi puhul aga määrab RGB-mudel kolme numbriga punase, rohelise ja sinise värvi tugevuse(Red, Green and Blue).
+
+Selleks, et too tohutu numbrimaatriks muutuks arvuti jaoks tähenduslikuks, läbib see neli peamist etappi. 
+Kõigepealt töödeldakse pilti matemaatiliselt, parandades teravust või eemaldades müra. 
+Seejärel asuvad algoritmid otsima piirjooni ehk kohti, kus pikslite väärtused järsult muutuvad, tuvastades nii nurgad, jooned ja tekstuurid, mis moodustavad suuremad kujundid. 
+Järgmise sammuna rakendatakse masinõpet ja sügavatel närvivõrkudel põhinevaid mudeleid, 
+mida treenitakse tuhandete või miljonite näidispiltide abil – sarnaselt inimaju toimimisele õpib süsteem piltide põhjal eri objekte eristama.
+
+Kui need alused on paigas, lahendab arvutinägemine konkreetseid ülesandeid.
+See võib piirduda lihtsa klassifikatsiooniga, vastates küsimusele, mis pildil on (näiteks „kass“ või „auto“), või minna detailsemaks objekti tuvastamisega, 
+mis märgib pildil olevate objektide asukohad ümbritsevate kastidega. Veelgi täpsemal tasemel toimub semantiline segmenteerimine, 
+kus iga viimane kui piksel liigitatakse kindlasse kategooriasse (eraldades näiteks teekatte, taeva ja inimesed üksteisest), ning näo- ja liikumistuvastus, mida kasutatakse aktiivselt turvakaamerates ja isejuhtivates autodes.
+
+
+
+Näidiskood1 näitab meile kuidas on võimalik töödelda olemsolevat pilti, antud juhul saame muuta pildi hallidesse toonidesse. Lisatud on ka enda tehtud pilt, mida kasutame näidisena.
+
+allikad:
+https://www.geeksforgeeks.org/computer-vision/computer-vision/
